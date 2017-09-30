@@ -29,7 +29,7 @@ size_of_selfloops <- function(eventlog,
 			   case = repeat_selfloops_size_case,
 			   activity = repeat_selfloops_size_activity,
 			   resource = repeat_selfloops_size_resource,
-			   "resource-activity" = repeat_selfloops_size_resource_activity
+			   resource-activity = repeat_selfloops_size_resource_activity
 		)
 	}
 	else if (type == "redo") {
@@ -38,7 +38,7 @@ size_of_selfloops <- function(eventlog,
 			   case = redo_selfloops_size_case,
 			   activity = redo_selfloops_size_activity,
 			   resource = redo_selfloops_size_resource,
-			   "resource-activity" = redo_selfloops_size_resource_activity
+			   resource-activity = redo_selfloops_size_resource_activity
 		)
 
 	}
